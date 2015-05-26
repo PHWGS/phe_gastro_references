@@ -1,0 +1,163 @@
+LOCUS       CP001112                3605 bp    DNA     circular BCT 07-NOV-2011
+DEFINITION  Salmonella enterica subsp. enterica serovar Newport str. SL254
+            plasmid pSL254_3, complete sequence.
+ACCESSION   CP001112 ABEN01000000 ABEN01000001 ABEN01000002
+VERSION     CP001112.1  GI:194400862
+DBLINK      BioProject: PRJNA18747
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Newport str. SL254
+  ORGANISM  Salmonella enterica subsp. enterica serovar Newport str. SL254
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (bases 1 to 3605)
+  AUTHORS   Fricke,W.F., Mammel,M.K., McDermott,P.F., Tartera,C., White,D.G.,
+            Leclerc,J.E., Ravel,J. and Cebula,T.A.
+  TITLE     Comparative genomics of 28 Salmonella enterica isolates: evidence
+            for CRISPR-mediated adaptive sublineage evolution
+  JOURNAL   J. Bacteriol. 193 (14), 3556-3568 (2011)
+   PUBMED   21602358
+REFERENCE   2  (bases 1 to 3605)
+  AUTHORS   Ravel,J., Fricke,W.F., White,D., McDermott,P., Mammel,M.,
+            Rosovitz,M., Leclerc,J., Cebula,T. and Sebastian,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUL-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     The sequenced strain has been deposited at the Salmonella Genetic
+            Stock Centre at the University of Calgary under the care of Dr.
+            K.E. Sanderson.
+FEATURES             Location/Qualifiers
+     source          1..3605
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Newport str. SL254"
+                     /mol_type="genomic DNA"
+                     /strain="SL254"
+                     /serovar="Newport"
+                     /sub_species="enterica"
+                     /db_xref="taxon:423368"
+                     /plasmid="pSL254_3"
+     gene            complement(237..614)
+                     /locus_tag="SNSL254_B0001"
+     CDS             complement(237..614)
+                     /locus_tag="SNSL254_B0001"
+                     /note="identified by glimmer; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ACF61087.1"
+                     /db_xref="GI:194400864"
+                     /translation="MSTKKYRLYNYLILLNHKDSIVTFFYRTISYSIYHNIRCVHRLR
+                     GSQGVSDGKPVKQGNKPPENQPETRRLCFYGMHEYARKCIAQNFTPCSQWKSCFRRSS
+                     HPKTVNGDAIYCVTVKRWQEHQA"
+     gene            744..2276
+                     /locus_tag="SNSL254_B0002"
+     CDS             744..2276
+                     /locus_tag="SNSL254_B0002"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="ACF61086.1"
+                     /db_xref="GI:194400863"
+                     /translation="MKKSVVRQVLEMSGPCISSDLAERIQWQYPSMSPEAIRKMISRS
+                     TDIGKLPFLKFSHNRRFIYLKDDFGSFKFWRALEKCMYEANSTYSHAILSVINNGGYL
+                     KVKDFGIVSGSPIKQAKHLSYETVLRNLLSAKILRAVYIDGVGDCVLINNNIANDVNI
+                     RTMANCESFFDKPIFELVKAWLRNLGLVAFNQIKTKYDGEGNPVVGSFEWDMTAPSYV
+                     SPLAEYVGGKLMPGFVACDFSLGFNRDEITTAAAETFIRKVQMTKSSRASQRIMFVIF
+                     ARRFGKIAFNKLRSEGVLAVTIANAFGNKVDESLTRLSRVVQGSLSIEKHPDELLQMV
+                     KDLESVSGENGNLRGYVFELFVSSQISNFYGLGNIYINREYKINGKHAEADVVLESSD
+                     DIYIIECKNVKVLPSTELTRWMKERVPIINSYYKINNLEKKNIHHYLWVTGNVYNKDL
+                     KRLDSFKNNNKNIDVDYLFGEHLDDFFYKKKRVFNLYRKVISPDYKKGVMPDFELEDD
+                     FF"
+     misc_feature    1785..>2039
+                     /locus_tag="SNSL254_B0002"
+                     /note="Nuclease-related domain; Region: NERD; pfam08378"
+                     /db_xref="CDD:219813"
+     gene            complement(2330..2431)
+                     /locus_tag="SNSL254_B0003"
+     ncRNA           complement(2330..2431)
+                     /locus_tag="SNSL254_B0003"
+                     /ncRNA_class="antisense_RNA"
+                     /product="RNAI"
+     gene            complement(2465..2905)
+                     /locus_tag="SNSL254_B0004"
+                     /note="conserved hypothetical protein; this gene contains
+                     a frame shift which may be the result of sequencing error"
+                     /pseudo
+     gene            3182..3331
+                     /locus_tag="SNSL254_B0005"
+     CDS             3182..3331
+                     /locus_tag="SNSL254_B0005"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="ACF61088.1"
+                     /db_xref="GI:194400865"
+                     /translation="MPSEYDEQRDATDTQLPGEYDLFDLMAKVTEENLHAPVDFGPPV
+                     GREAL"
+     misc_feature    <3239..3328
+                     /locus_tag="SNSL254_B0005"
+                     /note="Antidote-toxin recognition MazE; Region:
+                     Antitoxin-MazE; cl00877"
+                     /db_xref="CDD:242163"
+ORIGIN      
+        1 ttgtatgaac agcttattcc tcctgactac taataaacta cagcgtcact actgatttac
+       61 tactgattta ctacaaaccg gagggggggg actacagaaa cactactgat ttactactga
+      121 tttactacaa atcggaggag gatgactact tatctactac tgatttacta ctgaattact
+      181 actgaattac gtcataacag ttctctgaac cattcgtaca tccgaccccc ttctcttcat
+      241 gcttgatgct cttgccaacg ctttacggtc acgcaataaa ttgcgtcccc gttcaccgtt
+      301 ttcggatgag aagaacgtcg aaaacaggac ttccactggc tgcacggcgt gaaattctgc
+      361 gctatgcact tgcgcgcata ctcatgcatg ccgtaaaaac agagcctgcg cgtttctggc
+      421 tggttttcgg gtggtttgtt gccttgtttt accggtttcc cgtcagaaac gccctgagag
+      481 cctctcaggc ggtgcacgca acggatgtta tggtaaatgg agtagctgat agttcgataa
+      541 aaaaatgtca caatactatc tttatgattt aaaaggatta aataattata aagacgatat
+      601 ttctttgtgc tcaatttaaa gtaagtaatt aaccatctga tttttaatta ttttttatag
+      661 tcactttttt ttaaaagact gcgccctatt acacgtagtg taatattata aatagcgtag
+      721 tgtgacagaa ataaggtgag gatatgaaaa aaagtgttgt tagacaggtg cttgaaatga
+      781 gcgggccatg catctcttcg gatcttgcag agagaattca gtggcaatat ccctcaatgt
+      841 cccctgaagc gatacgtaaa atgatctcgc gaagcacgga cataggtaag ctgccatttt
+      901 tgaaattcag ccataacagg agattcattt atctaaaaga tgattttggc agtttcaaat
+      961 tttggcgagc tctcgaaaag tgcatgtacg aagcaaactc aacttactca cacgcgatac
+     1021 tttccgtaat aaataatggc ggttatttga aggtgaaaga ttttgggatt gtgtctggat
+     1081 ctcctataaa acaagctaaa catttaagtt atgaaacagt tctaagaaat ctactttcgg
+     1141 caaaaatact tagagccgtg tatattgatg gagttggtga ttgcgtactg ataaataaca
+     1201 acatagccaa cgatgttaat attagaacaa tggcaaattg cgaatccttt tttgacaaac
+     1261 caatatttga gcttgttaaa gcttggttga ggaatttagg cctagtcgct tttaatcaga
+     1321 taaaaacaaa atatgatggg gagggaaatc cagttgtagg ctcttttgaa tgggatatga
+     1381 ccgctccaag ttacgtttcc cctctcgctg aatatgtcgg cggaaaactg atgcctggtt
+     1441 tcgttgcctg tgatttttct ctcggcttta atcgtgatga aattactacc gctgcagcag
+     1501 aaacattcat aagaaaagtc cagatgacca agtcttctcg agcgagtcag aggataatgt
+     1561 ttgttatttt cgcaaggcgt ttcggcaaaa tagccttcaa taagttgaga agtgaggggg
+     1621 ttctggctgt aactatagca aatgcgtttg gtaataaagt tgatgaaagc ttaaccaggt
+     1681 tgtcgagggt ggttcagggt tctttgtcca ttgaaaagca tccagatgag ttgcttcaga
+     1741 tggttaaaga tctggagtct gtttctggag agaatggcaa tttgagaggg tatgtttttg
+     1801 agctttttgt atcctcgcaa atttctaatt tttatggcct tggtaatatt tacattaata
+     1861 gagagtataa gataaatggt aagcatgcag aagctgatgt tgtattggag agtagtgacg
+     1921 atatttatat aatagagtgc aaaaatgtta aggtcttacc ttcaactgaa cttacgcgtt
+     1981 ggatgaaaga aagggttcca attataaact cttactataa aataaataat ttagaaaaaa
+     2041 agaatatcca ccattatttg tgggttacag ggaatgtgta caacaaagat ttaaaaaggt
+     2101 tagactcttt taagaataat aataagaata tcgatgttga ttatttgttt ggtgagcatt
+     2161 tggatgattt cttttacaag aaaaagcggg tgttcaactt atatagaaaa gtcatttcac
+     2221 ctgattataa aaaaggcgta atgcctgatt ttgagttaga ggacgatttt ttctagctac
+     2281 tgcgtttctt gacgatggcg ctttgaaagg cgtatcttcc atctctgaaa cgaaaaaacc
+     2341 acccggcaag gtggtttttc gaaggttcag gaaaccggca agtttctgaa ccgtggtaac
+     2401 tggcttaaac ggagcgcagt gaccaaatct gtccttccag tgtagccgta gtcaggtcaa
+     2461 cacttcaaga actctgtgta tgcttgtaca cgcctctccg ctccgtaaac cagataccaa
+     2521 tggctgctgc cagtggcgtt ttgtcgtgtc tttccgggtt ggactcaagt cgatagttac
+     2581 cggaacaggc gcagcagtcg gactgaacgg ggggttcgtg catacagtcc agcttggagc
+     2641 gaactgcctt cccggaactg agtgtcaggc gtggaatgag ataaacgcgg ccataacagc
+     2701 ggagtgacac cggtaaaccg aaaggcagga acaggagagc gcacgaggga gctaccaggg
+     2761 ggaaacgcct gggatcttta tagtcctgtc gggtttcgcc accactgatt tgagtgtcag
+     2821 atttcgtgat gcttgtcagg ggggcggagc ctatggaaaa acggcagcgc cgcgtccttt
+     2881 tcctgccctg tttgtcatgc cacatgcttt tgctcttatc cgtgtgcagc taacgcccgc
+     2941 cgcagccgaa cggcaggagc ggtagcgacc gagtgagcga ggaggcgtca tatcacagta
+     3001 acccccattt tctcccgtac gccctgtagc tgcattttcc cctgtcacat gaagcacttt
+     3061 cctgaacccc gaccccgccg taacatattc agctagttta gactccgcta gcgctacgtg
+     3121 actggttcag ggctgcgctc cgaaacccgc taacaacccc ttagctactg gatatcaccc
+     3181 catgccatct gaatatgatg aacaacggga tgcgactgat acgcagcttc ccggcgaata
+     3241 tgaccttttt gatttaatgg cgaaggttac tgaagagaac ctgcacgccc cggtggattt
+     3301 tgggccgcct gtcggccggg aagcgttata gctttttcgc ttacccgcgt acgtgtaata
+     3361 cgccggtatt acatcttatt tctttatttt catgtgatta caggtggttg taatacgttg
+     3421 cgtattacat aaataaacgg gaacttcagt ttttaccttt taattcatgc aattgcgatg
+     3481 aaaatcgcgg ttgcgtatgg tgtatggcca tttaagggat aaagaatcat ctccttaccg
+     3541 ggctgagctt tgcctattct gaggagatct gtgaaaaaaa gcgtccataa ctagctcgtt
+     3601 catac
+//

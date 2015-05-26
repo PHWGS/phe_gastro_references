@@ -1,0 +1,165 @@
+LOCUS       CP001119                3373 bp    DNA     circular BCT 07-NOV-2011
+DEFINITION  Salmonella enterica subsp. enterica serovar Heidelberg str. SL476
+            plasmid pSL476_3, complete sequence.
+ACCESSION   CP001119 ABEM01000000 ABEM01000001-ABEM01000049
+VERSION     CP001119.1  GI:194405605
+DBLINK      BioProject: PRJNA20045
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Heidelberg str. SL476
+  ORGANISM  Salmonella enterica subsp. enterica serovar Heidelberg str. SL476
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (bases 1 to 3373)
+  AUTHORS   Fricke,W.F., Mammel,M.K., McDermott,P.F., Tartera,C., White,D.G.,
+            Leclerc,J.E., Ravel,J. and Cebula,T.A.
+  TITLE     Comparative genomics of 28 Salmonella enterica isolates: evidence
+            for CRISPR-mediated adaptive sublineage evolution
+  JOURNAL   J. Bacteriol. 193 (14), 3556-3568 (2011)
+   PUBMED   21602358
+REFERENCE   2  (bases 1 to 3373)
+  AUTHORS   Ravel,J., Fricke,W.F., White,D., McDermott,P., Mammel,M.,
+            Rosovitz,M., Leclerc,J., Cebula,T. and Sebastian,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUL-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     The sequenced strain has been deposited at the Salmonella Genetic
+            Stock Center at the University of Calgary under the care of Dr.
+            K.E. Sanderson.
+FEATURES             Location/Qualifiers
+     source          1..3373
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Heidelberg str. SL476"
+                     /mol_type="genomic DNA"
+                     /strain="SL476"
+                     /serovar="Heidelberg"
+                     /sub_species="enterica"
+                     /db_xref="taxon:454169"
+                     /plasmid="pSL476_3"
+     gene            complement(182..343)
+                     /gene="rop"
+                     /locus_tag="SeHA_B0001"
+     CDS             complement(182..343)
+                     /gene="rop"
+                     /locus_tag="SeHA_B0001"
+                     /note="identified by match to protein family HMM PF01815"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="regulatory protein Rop"
+                     /protein_id="ACF65827.1"
+                     /db_xref="GI:194405607"
+                     /translation="MARFIRSQTLTLLEKLNDLDADEQADICESLHDHADELYRSCLA
+                     RFGDDGESN"
+     misc_feature    complement(191..343)
+                     /gene="rop"
+                     /locus_tag="SeHA_B0001"
+                     /note="Rop protein; Region: Rop; pfam01815"
+                     /db_xref="CDD:145136"
+     gene            511..663
+                     /locus_tag="SeHA_B0002"
+     CDS             511..663
+                     /locus_tag="SeHA_B0002"
+                     /note="identified by glimmer; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ACF65826.1"
+                     /db_xref="GI:194405606"
+                     /translation="MDAAGLSGGAGCTHRKTADTIAAIAAASGCHREQPEPDSPEGEQ
+                     RPVVFD"
+     gene            750..2324
+                     /locus_tag="SeHA_B0003"
+     CDS             750..2324
+                     /locus_tag="SeHA_B0003"
+                     /note="identified by match to protein family HMM PF03432"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mobilization protein MbeA"
+                     /protein_id="ACF65828.1"
+                     /db_xref="GI:194405608"
+                     /translation="MIVKFHARGKGGGSGPVDYLLGRERNREGATVLRGNPEEVRELI
+                     DSTPFSKKYTSGVLSFAEKELPPGERERVMTSFERVLMPGLEKDQYSILWVEHQDKGR
+                     LELNFVIPNMELQSGKRLQPYYDRADRPRINAWQTLVNHHYGLRDPNAPENRRTLVTP
+                     NNLPKAKQEAAEAITRGLEALYHAGAIKTRQDVTEALTAAGFEVVRTTKSSISIADPE
+                     GGRNLRLKGALYEQSFTNGNRLREETERASRFYREHAEQRVQEARRVCRQGIELKQAE
+                     NQRRYQRTYNIREKATGYAEHHREHAVQHHRGRTVPAAEKTALAGDQRADTVSGADRA
+                     QRHGRHFPGVLGADGVAGKQDCEKYPDYQRAGKHAGETRGKNLGGDVRQWREREISGV
+                     AGRGERGKHLDGGRQERREAGQGVNEYDGTGRAFAERLRAFATGLYAAAERVGERLRG
+                     IAEDARGYATEQRDTERARRDIESAGAEISRASGSLESVIYREQQLRDEQERARYRHE
+                     VQERAARVRSGPSMEM"
+     misc_feature    <921..1487
+                     /locus_tag="SeHA_B0003"
+                     /note="Relaxase/Mobilisation nuclease domain; Region:
+                     Relaxase; pfam03432"
+                     /db_xref="CDD:217554"
+     gene            complement(2453..2866)
+                     /locus_tag="SeHA_B0004"
+     CDS             complement(2453..2866)
+                     /locus_tag="SeHA_B0004"
+                     /note="identified by glimmer; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ACF65829.1"
+                     /db_xref="GI:194405609"
+                     /translation="MATHQVSAVDETLCAGSGTLTRAVAVVTAPPTANDSRKYASICK
+                     NRFFSGFLGDCAVEKFLKNTEGSCKLNELVSVVDLNSFHRNIEEVRDLNEPETARLPG
+                     ELFSFYARRRKIASAITRFFTSLRSKSKKTMFSPG"
+ORIGIN      
+        1 gcacttccca tccatgtctg caccgatgca aaatgagata agccagtata cacatcgcta
+       61 tcgctctgtg aactgggtca gggctgcgcc ccgacacccg cactgacgcg ccctggcggg
+      121 cttgtctgct cccggcatcc gctcacaggc aagctgtgaa cgtctccggg agctgcatgt
+      181 ttcagttgct ttcaccgtca tcgccgaagc gtgcgaggca actgcggtag agttcgtcgg
+      241 cgtggtcgtg aagtgattcg cagatgtctg cctgttcgtc cgcgtccaga tcgttgagtt
+      301 tttccagcag ggttagcgtc tggcttctga taaagcgagc catgttaagg gctgtttttt
+      361 cctgtttggt catggtctta aggctccttg tatgggggat ttgttagggg gaatgatacc
+      421 gatgaaacgc gagaagatgc tcacgatacg ggttaccgat gaggagcacg cccggttact
+      481 ggaacgctgc gagggtaaac gactggcgga atggatgcgg cgggtctgtc tgggggagcc
+      541 ggttgcacgc acaggaaaac tgccgacact atcgccgcca ttgctgcggc atctggctgc
+      601 catcgggaac aacctgaacc agacagcccg gaaggtgaac agcggccagt ggtcttcgat
+      661 tgaccgggtt catgtggtgg ccgcactgat ggccatcgag ggtgaattgc gccagttgcg
+      721 gcaggctgtc agggaacagg gggtacggga tgatagttaa atttcatgcc agggggaaag
+      781 gcggtggaag tggcccggtc gattacctgc tggggcggga gcgtaaccgc gaaggcgcaa
+      841 cggtgctccg gggtaacccg gaagaagtgc gggaactcat tgattccacg ccattctcga
+      901 agaaatacac ttcaggcgtt ctgtcgttcg cggagaagga gttaccgccg ggtgaacgcg
+      961 aaagagtgat gacgagcttt gagcgtgttc ttatgcccgg tctcgaaaaa gaccagtaca
+     1021 gcattctctg ggtggaacac caggataagg ggcggctcga actgaatttt gtcatcccga
+     1081 acatggagct acagagcggt aagcgcctcc agccgtacta cgaccgcgcg gacaggccga
+     1141 ggataaatgc ctggcagacg ctggttaatc atcattacgg gctgcgtgac ccgaacgcac
+     1201 cggagaacag acggacgctt gtcacgccaa ataatctgcc aaaagcgaaa caggaggccg
+     1261 cagaagcgat tacacggggt cttgaggctc tttaccatgc cggagcaata aaaacgcgtc
+     1321 aggatgtcac agaggcgctt acagcggcag gttttgaggt ggtgaggaca accaaaagca
+     1381 gcatcagtat tgccgacccg gagggggggc ggaatctcag gctaaagggg gcgctgtatg
+     1441 agcaatcttt tacaaatggg aacagacttc gagaagaaac tgaaagagcg agccgcttct
+     1501 accgagaaca tgctgaacag cgagttcagg aagctcgaag agtctgtaga caaggcattg
+     1561 agcttaaaca ggcagaaaat cagagacgct atcagcgaac atacaacatc cgtgaaaaag
+     1621 caactggata cgctgagcac caccgtgagc atgcagttca gcaccacaga ggccgaactg
+     1681 tcccggcagc agaaaaaact gctctggcgg gtgatcaaag ggcggatact gtttccggcg
+     1741 ctgaccgcgc tcagcgtcac gggcggcatt ttcctggggt gctgggggct gatggagtgg
+     1801 caggaaagca agattgcgaa aaatatcctg actatcagag agcaggaaaa cacgctggcg
+     1861 aaactcgagg caaaaacctg gggggtgacg ttcgtcaatg gcgagaacgg gaaatttctg
+     1921 gtgttgccgg acggggtgaa aggggaaaac acctggacgg tgggcgacaa gaacgccgtg
+     1981 aggctggtca gggagtaaac gagtatgacg gaactggaag ggcatttgct gaacgcctta
+     2041 gagcatttgc aacaggacta tatgcggcgg ctgaacgagt gggagagcgc cttcgcggaa
+     2101 ttgcagaaga tgcacgaggt tacgcaacgg aacaacgcga tactgaacga gcgcgtcgtg
+     2161 atattgagtc agcaggtgca gagattagcc gggcaagtgg atcgcttgag tcggttattt
+     2221 atcgcgaaca acagctaagg gatgaacagg agcgtgcccg gtacagacat gaggtacagg
+     2281 aacgcgcggc acgggttcgg agtgggccat caatggagat gtgaccgggg aagtgacgaa
+     2341 atcttgccat tttgaccagt tcgacggctg gggcgagcga aacaaatcgt gtgccgtatt
+     2401 tgtgcatagc tatgcaacat cctgaaaacg catttcacgc gtttttgggg attcagccag
+     2461 gggaaaacat ggttttttta ctttttgagc gtaaagacgt gaaaaatctc gttattgcac
+     2521 ttgcgatctt tcgtcggcgg gcgtagaacg aaaacagctc gccaggaagg cgagctgttt
+     2581 cgggttcatt gaggtctctg acctcctcaa tgttcctgtg gaaactgttg agatccacaa
+     2641 cagaaaccag ttcattcagt ttgcatgagc cttctgtatt cttcaagaat ttttcaacag
+     2701 cacagtctcc caggaacccc gaaaaaaacc tgtttttgca gatacttgcg tatttgcgag
+     2761 aatcgtttgc ggttggggga gctgtgacga cggcgaccgc acgcgtgaga gttccgctac
+     2821 cggcgcagag agtttcatcg acagcggaca cctgatgagt tgccacaaaa accgtatgta
+     2881 gcgcggctag attggttgag ttagaccttg gcggcagttc ccggtatgtg gtggcgtgac
+     2941 gggtgagatg gtgcggcgaa gacgcatacg tcacgcaggc gcgggttctt ccactgacgc
+     3001 gccccgtgat cgatggcctt ggctccgtcc ggcatatcga gagcggcaaa ctacccgtcc
+     3061 cttcactggg aggggtgagt tgttgccgtt ccctccaacc tttcaccatc cggcatatcg
+     3121 cacgatccca tgtgcaccgc aactcctgat aactccagtg caaaaaaaaa aaacggatct
+     3181 gcatcacaac gagagtgatc ccaccgctcg ccgcagcccc agcgaccgaa cgtagtgagc
+     3241 gagtgggcga ggaagcggaa gagtcacaga tgcaagcatt gtgcacttac gcgcctgtgc
+     3301 cagtgtccgc gtgtgtgctg tttatcgggt gcgctgtttt tacatctgtg cggcttttta
+     3361 ctcctgacat ggt
+//

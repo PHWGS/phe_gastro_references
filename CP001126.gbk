@@ -1,0 +1,215 @@
+LOCUS       CP001126                4585 bp    DNA     circular BCT 07-NOV-2011
+DEFINITION  Salmonella enterica subsp. enterica serovar Schwarzengrund str.
+            CVM19633 plasmid pCVM19633_4, complete sequence.
+ACCESSION   CP001126 ABAL01000000 ABAL01000001-ABAL01000160
+VERSION     CP001126.1  GI:194709398
+DBLINK      BioProject: PRJNA19459
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Schwarzengrund str.
+            CVM19633
+  ORGANISM  Salmonella enterica subsp. enterica serovar Schwarzengrund str.
+            CVM19633
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (bases 1 to 4585)
+  AUTHORS   Fricke,W.F., Mammel,M.K., McDermott,P.F., Tartera,C., White,D.G.,
+            Leclerc,J.E., Ravel,J. and Cebula,T.A.
+  TITLE     Comparative genomics of 28 Salmonella enterica isolates: evidence
+            for CRISPR-mediated adaptive sublineage evolution
+  JOURNAL   J. Bacteriol. 193 (14), 3556-3568 (2011)
+   PUBMED   21602358
+REFERENCE   2  (bases 1 to 4585)
+  AUTHORS   Ravel,J., Fricke,W.F., White,D., McDermott,P., Mammel,M.,
+            Rosovitz,M., Leclerc,J., Cebula,T. and Sebastian,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUL-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     The sequenced strain has been deposited at the Salmonella Genetic
+            Stock Center at the University of Calgary under the care of Dr.
+            K.E. Sanderson.
+FEATURES             Location/Qualifiers
+     source          1..4585
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Schwarzengrund str. CVM19633"
+                     /mol_type="genomic DNA"
+                     /strain="CVM19633"
+                     /serovar="Schwarzengrund"
+                     /sub_species="enterica"
+                     /db_xref="taxon:439843"
+                     /plasmid="pCVM19633_4"
+     gene            complement(160..1095)
+                     /locus_tag="SeSA_C0001"
+     CDS             complement(160..1095)
+                     /locus_tag="SeSA_C0001"
+                     /note="identified by match to protein family HMM PF03090;
+                     match to protein family HMM PF08708"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication protein"
+                     /protein_id="ACF88625.1"
+                     /db_xref="GI:194709403"
+                     /translation="MSAALQYFEENLPRRPYHTDDLAFGLRISGKGRALLARYIQQNQ
+                     PHAQFWLVFDVDREGAAIDWSDRNAPAPNITVKNPVNGHAHLLYALNIAVRTAPDASV
+                     KALKYAAAVERSLCEKLCADVNYSGLICKNPFHLEWQVMEWREEAYTLDELADYLDLS
+                     ASARHSIDKHYGMGRNCHLFEMTRKWAYRAIRQGWPAFSQWLDAVIQRVEMYNASLPV
+                     PLSPPECRAIGKSIAKYTHRNFTPETFAQYVANTHTPEIQAKRGRKGGIAKGEAYADK
+                     RFMALCMLENGYSQKAIAAMLEVSTRTIRNWKSGK"
+     misc_feature    complement(622..1026)
+                     /locus_tag="SeSA_C0001"
+                     /note="Replicase family; Region: Replicase; pfam03090"
+                     /db_xref="CDD:217362"
+     misc_feature    complement(382..585)
+                     /locus_tag="SeSA_C0001"
+                     /note="Primase C terminal 1 (PriCT-1); Region: PriCT_1;
+                     pfam08708"
+                     /db_xref="CDD:219983"
+     misc_feature    complement(<172..270)
+                     /locus_tag="SeSA_C0001"
+                     /note="Homeodomain-like domain; Region: HTH_23; pfam13384"
+                     /db_xref="CDD:222091"
+     gene            1596..1931
+                     /locus_tag="SeSA_C0002"
+     CDS             1596..1931
+                     /locus_tag="SeSA_C0002"
+                     /note="identified by glimmer; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ACF88622.1"
+                     /db_xref="GI:194709400"
+                     /translation="MKRIVFSILLPLSFHANAYYLSCEQVGKIAVAVTTSSNEKATQN
+                     DTKYGDIQKNNLSKIENHAVLFCQEVRKFKVTPETADSWAEYTSLKAELDSEMKNNIK
+                     IITRLSVIQ"
+     gene            complement(1983..2306)
+                     /locus_tag="SeSA_C0003"
+     CDS             complement(1983..2306)
+                     /locus_tag="SeSA_C0003"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="ACF88624.1"
+                     /db_xref="GI:194709402"
+                     /translation="MTIIFNSDKQTDSESAFEKWLLHHPDGFVVNLRKAANGLSGKSD
+                     KHKTFIHSASCHCLSSTKGGFTNGEYQKICSSSFEKAEALAKYMTGLDEIKRCSFCFG
+                     KDKEC"
+     gene            complement(2398..3933)
+                     /locus_tag="SeSA_C0004"
+     CDS             complement(2398..3933)
+                     /locus_tag="SeSA_C0004"
+                     /note="identified by match to protein family HMM PF03389"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="43 kDa relaxation protein"
+                     /protein_id="ACF88623.1"
+                     /db_xref="GI:194709401"
+                     /translation="MASYHCTVKTGAKGAALKHADYISRSGEYKSYKSREDLEFSSSG
+                     NMPSWAKKNPAELWKAADEFERKNGTAYREIEIALPRELTREQRIELVEDFVQKELGN
+                     RHAYQYAIHNPPGAIDGKEQPHAHIMFCERINDGIERDPQQFFKRANSKSPERGGAKK
+                     ASIPQTAGERKAALVALRSRWADVQNEHLARHGHESRVDHRSLKEQGIKRTPEVHLGP
+                     VHAANLNEGQIAAIQEHRAARQQERAARNPAPERQQELEQKQKIRTVERSPELLAQYR
+                     KVMKTVIQGEERLARLGDANPDALKEHKLLQNAKAKKESLSEWSRRIYEGARYLDKLG
+                     RNVVSAQRELRELQEQRNALNGIRGLFRGADKREIDARILEQKSVLETAEHERNEFRN
+                     KLQQAESEWDKENAAFKRTEGYKYVGDLDRYREREILAAASLENTRQKVAEEVSVARS
+                     QMLSLEPELSMSGDEKAQMRHELLAEMAQERQQQEEYARRIQQSLARGMLNSKERDQG
+                     IER"
+     misc_feature    complement(3280..3894)
+                     /locus_tag="SeSA_C0004"
+                     /note="MobA/MobL family; Region: MobA_MobL; pfam03389"
+                     /db_xref="CDD:217529"
+     gene            4018..4551
+                     /locus_tag="SeSA_C0005"
+     CDS             4018..4551
+                     /locus_tag="SeSA_C0005"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="ACF88621.1"
+                     /db_xref="GI:194709399"
+                     /translation="MILRSHTQADKVILCTITTHINGKSAEVRMTNREDWLSAKIAYI
+                     NGLKSPSEQQRLLVLLAEKKNRTTTDEKTLSALIRAEKTAEKAAAAKARVTAIIAAER
+                     KAAARAERKARDHELYKAAGLMIVAGLVDSKTGKPKFSAAELVGALAGIAELPRNHPK
+                     WQEWEKRGKELLTKDSA"
+     misc_feature    4357..4542
+                     /locus_tag="SeSA_C0005"
+                     /note="Conjugal transfer protein TraD; Region: TraD;
+                     pfam06412"
+                     /db_xref="CDD:219012"
+ORIGIN      
+        1 cctcgctcat tcgctcgcta cgctcggtca tgagactgtg gcgagcacga ccacctcaat
+       61 catacggcaa gccgcaccat tgctgggctg aaaggagaaa accgccggaa agcccgctgc
+      121 tcaaaaagac gccgaaaagg cgctgttatc tgatataggc tattttccgc ttttccaatt
+      181 ccgaatagtt cgagtggaaa cctccaacat cgccgcgata gctttctgag aatatccatt
+      241 ctccagcata catagagcca tgaaacgctt gtcagcgtag gcttcgcctt tagcgatgcc
+      301 acctttcctg cctctcttgg cctgtatttc tggcgtgtgc gtattagcca catactgtgc
+      361 gaaagtttcc ggcgtgaagt tcctgtgcgt gtatttcgca atgctcttgc caatagcccg
+      421 acattcaggc ggagaaagcg gaacgggaag cgatgcgttg tacatttcga cacgctgaat
+      481 cacggcatca agccactgtg agaatgctgg ccagccctga cgaatcgccc tgtaagccca
+      541 tttgcgcgtc atttcgaaca ggtggcagtt tcgccccatc ccgtaatgtt tatcgatgct
+      601 atgacgcgct gaggcgctca aatcgagata atcagccagt tcatcgaggg tataggcttc
+      661 ctcgcgccac tccatcacct gccattccag gtggaacgga tttttgcaaa tcagtccgct
+      721 gtagttcaca tcagcacaaa gtttctcaca cagcgaacgt tcaaccgctg cggcatattt
+      781 cagcgcctta accgacgcat caggcgcggt tctcacggcg atattgagtg catagagcag
+      841 gtgagcgtgt ccgttcacag gatttttaac ggtgatgttc ggcgcggggg cgttccggtc
+      901 gctccagtca atcgctgccc cctcgcggtc aacgtcaaaa accagccaga actgcgcatg
+      961 aggctggttc tgctggatgt accgcgcaag cagcgcacgc cctttgccgg agatgcgaag
+     1021 accaaaagcg agatcatccg tgtgataggg acggcggggt aaattttctt cgaagtattg
+     1081 aagcgcggcg ctcatgtgtt acgattcctt ccaggttatc gaccgacatc gcccctgtat
+     1141 tttcgtgaca gtcttggcgg atagacacga atttcagggg cgtttgtttt tcagtcgctt
+     1201 acactacccc caacgacaaa acctgtcgag tcttcccgca aacccgatcc atttaccata
+     1261 actcctgttg tatgcacccc ttaaaacgcc ctcagacgct ttctgacgca aaaaactcaa
+     1321 aaagacaagt aaacaccagg cagaaccaga aaaacgcgtc agaattgttt ctaggaagct
+     1381 gcataactat gcacaaaagc gattcgcgaa cagtttcgac cgtttagaag ggcgaacggg
+     1441 tcaaaacggc aaactttccc catcagaaaa cgcctcacag ggagcgaaat cttttcgctc
+     1501 cctgtgaggc gttagaaaaa tgctaagaat tgcaaaatac gtatttgtaa atgtagtatc
+     1561 tacatgtttt ttttattaaa aacgagacac ctataatgaa aagaatagta ttctcaatat
+     1621 tattgccatt gtcatttcat gccaacgcgt actatttaag ttgcgagcaa gttggaaaaa
+     1681 tagcagtagc ggtaaccacc tcatcaaatg aaaaggcaac tcaaaatgac acaaaatatg
+     1741 gagatattca aaaaaacaat ttatcaaaaa tagaaaatca tgctgtttta ttttgccaag
+     1801 aagttagaaa atttaaagtc actccagaaa ctgccgatag ctgggcagaa tatacatccc
+     1861 ttaaagctga attagattca gaaatgaaaa acaacataaa aattataaca cgactatctg
+     1921 taatccaata aataaaaaga tcgcgataaa aatcgcgatc ttgccaataa taaagtagca
+     1981 tattagcact ctttatcttt accaaagcag aagctgcaac gttttatctc atctagccca
+     2041 gtcatatatt tagctaacgc ctctgctttc tcaaaagaag atgagcatat tttctgatat
+     2101 tctccattag taaatccacc tttcgtagaa gagagacaat gacaactagc actgtgaata
+     2161 aaagttttat gtttatcact tttacccgac aaaccattag cagcttttct caaattaaca
+     2221 acaaagccat caggatggtg aagcaaccat ttctcgaaag ctgactcgct atcagtttgt
+     2281 ttatcgctgt taaagataat agtcatttaa tttatcttcc atcacaatca atttcatcta
+     2341 ctcgttaact atttttagtt aattcagaaa aatttcttta ccagagtaaa tacaacatta
+     2401 tcgttcaata ccctgatcac gctccttact atttaacatt cctctagcca aagattgctg
+     2461 tatacgccgt gcgtattctt cttgttgctg cctttcctgt gccatttctg ccagtaactc
+     2521 atgtcgcatt tgagcttttt catctccaga catactgagt tcaggctcca gagataacat
+     2581 ctggctacgg gcaacggata cttcttcagc aaccttttgc ctggtattct ctaaagatgc
+     2641 cgcggccaga atctcacgtt ctctgtacct gtccagatcc ccaacgtact tatatccctc
+     2701 ggtacgctta aaagcggcgt tttctttgtc ccactcggat tcggcttgct gtagcttgtt
+     2761 cctgaattca ttcctttcat gttcagcggt ttccagcaca cttttttgct ccagaatacg
+     2821 cgcatcaatc tcccttttgt cagccccccg aaacaggcca cgaatcccat tcaaagcatt
+     2881 gcgttgttcc tgtagctccc gcagctccct ttgtgcggaa acaacattac gccccagttt
+     2941 gtctaaatac cgtgcccctt catatattcg cctgctccat tcggaaagag attctttttt
+     3001 agctttcgca ttctgaagca gcttatgttc tttgagcgca tcggggttgg catcccctaa
+     3061 acgagcaagc ctttcctctc cctgaatgac cgttttcata accttgcggt actgagccag
+     3121 taactccggt gaacgctcaa ctgtcctgat tttttgcttt tgctccagtt cctgttggcg
+     3181 ctctggcgct gggttgcgtg ctgcgcgttc ttgctgacgc gccgccctgt gctcctgaat
+     3241 tgccgcgatc tgcccctcgt tcagattggc ggcgtgaaca gggccaagat gaacttccgg
+     3301 cgtgcgcttg atgccctgtt ctttcagcga acgatgatct acgcgcgact cgtgaccgtg
+     3361 tcgcgcaagg tgctcattct gcacatcagc ccagcgggaa cgtagcgcaa caagggcggc
+     3421 ttttcgctct ccggcggtct ggggaatact cgcctttttt gcgcctcccc gctccggtga
+     3481 tttgctgttg gcgcgtttaa aaaattgctg cggatcgcgt tcaataccat cattaatccg
+     3541 ctcgcaaaac atgatatgcg cgtgtggctg ttcctttccg tcgattgcac ctggcggatt
+     3601 gtggatcgcg tactggtagg catggcgatt gccaagttcc ttttgcacga aatcttcaac
+     3661 aagttctatc cgttgttcgc gtgtcagttc acgcggtaat gcgatctcaa tttcacggta
+     3721 tgccgtcccg ttttttcgtt caaattcatc tgcggctttc cacagttctg cgggattttt
+     3781 cttcgcccat gatggcatgt taccggatga cgaaaactcc agatcctccc gcgatttgta
+     3841 gctcttatat tcgccggatc tggaaatgta atcagcatgt tttaaggctg cgccttttgc
+     3901 tccggtttta acggtgcaat ggtagcttgc catctgcctt ttagccctcc gcaggagcgc
+     3961 acagtttctt gatgaaatcg agaaactact aagtgcgcat ccctgaataa atcagggatg
+     4021 attttacgtt ctcacacgca ggcagacaag gtgatattat gcacaataac aactcacatt
+     4081 aacggcaaaa gtgcagaggt aaggatgaca aatcgtgaag actggttaag tgcaaaaatt
+     4141 gcctacatca acggactgaa atcaccgtca gagcagcaga gattacttgt gttactggca
+     4201 gagaaaaaaa accgaacaac gacggatgaa aaaacgttgt ccgcactgat acgagcagaa
+     4261 aaaaccgcag agaaagcagc cgcagcaaaa gccagagtaa cggcaatcat agcggcagaa
+     4321 cggaaggcag ccgcaagggc ggaacgaaag gcacgagatc atgaactcta caaggccgca
+     4381 ggcctcatga ttgtggcagg actggtggac agcaaaaccg gaaaaccaaa gtttagtgct
+     4441 gccgaactgg taggcgcact cgcaggaatc gcagagctac cgcgcaacca tccaaaatgg
+     4501 caggaatggg aaaaacgcgg gaaagagcta ctcaccaaag acagtgcgta agagcctccg
+     4561 ttcacgttcc ggttccctgg tgctt
+//
